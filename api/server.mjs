@@ -1,4 +1,4 @@
-import express from 'express';
+  import express from 'express';
 import dotenv from 'dotenv';
 import path from 'path';
 import axios from 'axios';
@@ -157,7 +157,7 @@ app.get('/login', (req, res) => {
   // store the state in the session
   req.session.state = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
 
-  res.redirect(`https://github.com/login/oauth/authorize?client_id=${process.env.GITHUB_CLIENT_ID}&redirect_uri=${redirectUrl}&state=${req.session.state}`);
+  res.redirect(`https://github.com/login/oauth/authorize?client_id=${process.env.GITHUB_CLIENT_ID}&redirect_uri=${redirectUrl}&state=${req.session.state}&scope=user%20read:org%20read:enterprise%20copilot:manage_billing%20read:enterprise_billing`);
 });
 
 app.get('/logout', (req, res) => {
