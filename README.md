@@ -1,6 +1,6 @@
 _NOTE: For information on support and assistance, click [here](https://github.com/github-copilot-resources/copilot-metrics-viewer/tree/main?tab=readme-ov-file#support)._
 
-# GitHub Copilot Metrics Viewer
+# GitHub Copilot Metrics Viewer 1
 <p align="center">
   <img width="150" alt="image" src="https://github.com/github-copilot-resources/copilot-metrics-viewer/assets/3329307/8473a694-217e-4aa2-a3c7-2222a321c336">
 </p>
